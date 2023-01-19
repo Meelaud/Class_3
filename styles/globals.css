@@ -95,6 +95,23 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.titles {
+  font-family: 'Franklin Gothic Medium';
+  font-size: 50px;
+}
+
+.text-background {
+  background-color: #56494E;
+  border-color: #DB324D;
+  border-radius: 5px;
+  box-shadow:0 20px 0 20px black;
+  
+}
+
+
+
+
+
 a {
   color: inherit;
   text-decoration: none;
