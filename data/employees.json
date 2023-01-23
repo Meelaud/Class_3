@@ -1,0 +1,20 @@
+[
+    {
+        "firstName": "Jason",
+        "location": "Vancouver, BC",
+        "age": 21
+    }, 
+
+    {
+        "firstName": "Percy",
+        "location": "Calgary, ",
+        "age": 26
+    },    
+
+    {
+        "firstName": "Annabeth",
+        "location": "Toronto, ON",
+        "age": 23
+    } 
+
+]

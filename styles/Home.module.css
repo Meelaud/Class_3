@@ -40,11 +40,27 @@
 }
 
 .grid {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  gap: 1em;
+  align-items: center;
+}
+
+.business {
+  background-color: green;
+}
+
+.computer {
+ background-color: aliceblue;
+}
+
+/* .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
   width: var(--max-width);
   max-width: 100%;
-}
+} */
 
 .card {
   padding: 1rem 1.2rem;

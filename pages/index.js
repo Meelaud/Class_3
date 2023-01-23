@@ -47,30 +47,34 @@ export default function Home() {
           </div>
         </div>
 
-        
+
 
         <div className={styles.grid}>
-          <div class="titles text-background">Business Degrees:</div>
-          {
-            information && information.map((info, index) => {
-              if (info.department === "Business") {
-                return (
-                  <Card key={index} degree={info.degree} colour="red" font="10px" />
-                )
-              }
-            })
-          }
+          <div class = "business">
+            <div class="titles text-background">Business Degrees:</div>
+            {
+              information && information.map((info, index) => {
+                if (info.department === "Business") {
+                  return (
+                    <Card key={index} degree={info.degree} colour="transparent" font="30px" />
+                  )
+                }
+              })
+            }
+          </div>
 
-          <div class="titles text-background">Computing Degrees:</div>
-          {
-            information && information.map((info, index) => {
-              if (info.department === "Computing") {
-                return (
-                  <Card key={index} degree={info.degree} colour="blue" font="30px" />
-                )
-              }
-            })
-          }
+          <div class = "computer">
+            <div class="titles text-background">Computing Degrees:</div>
+            {
+              information && information.map((info, index) => {
+                if (info.department === "Computing") {
+                  return (
+                    <Card key={index} degree={info.degree} colour="transparent" font="30px" />
+                  )
+                }
+              })
+            }
+          </div>
         </div>
       </main>
     </>
