@@ -28,23 +28,6 @@ export default function Home() {
           <p>
             <Link href="about">About</Link>
           </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
         </div>
 
 
@@ -69,7 +52,7 @@ export default function Home() {
               information && information.map((info, index) => {
                 if (info.department === "Computing") {
                   return (
-                    <Card key={index} degree={info.degree} colour="transparent" font="30px" />
+                    <Card key={index} degree={info.degree} colour="" font="30px" />
                   )
                 }
               })

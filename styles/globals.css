@@ -40,7 +40,7 @@
   --card-border-rgb: 131, 134, 135;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     /* background start wouldnt change colour? not sure why its stuck at black, so i added a background colour instead in the body class. */
@@ -94,13 +94,15 @@ body {
     )
     rgb(var(--background-start-rgb));
     background-color: #68237b;
-    
+    --foreground-rgb: 255, 255, 255;
+    --background-end-rgb: 100, 236, 247;
 }
 
 .titles {
   margin-bottom: 1em;
   font-family: 'Franklin Gothic Medium';
   font-size: 50px;
+  text-align: center;
 }
 
 .text-background {
